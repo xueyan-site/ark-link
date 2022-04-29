@@ -23,7 +23,7 @@ export default function Main() {
       </div>
       <div>
         <Link 
-          style={{ width: '100px' }} 
+          style={{ width: '100px', height: '30px', background: '#999' }} 
           href="#"
           title="dsdsd"
           icon={<SunIcon size={14} />}
