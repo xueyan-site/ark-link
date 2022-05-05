@@ -59,7 +59,7 @@ export const Link = forwardRef<LinkRef, LinkProps>(({
       className={cn(
         className, 
         styles.xrlink, 
-        (href || onClick) && styles.canclick
+        href && styles.anchor
       )}
       style={style}
       href={href}
