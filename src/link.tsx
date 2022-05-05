@@ -56,7 +56,11 @@ export const Link = forwardRef<LinkRef, LinkProps>(({
   return (
     <a
       ref={rootRef}
-      className={cn(styles.xrlink, className)}
+      className={cn(
+        className, 
+        styles.xrlink, 
+        (href || onClick) && styles.canclick
+      )}
       style={style}
       href={href}
       title={title}
