@@ -11,9 +11,9 @@
     }
   }
   &.disabled {
-    color: var(--font2);
+    color: inherit;
     &.anchor {
-      cursor: not-allowed;
+      cursor: inherit;
       &:active {
         color: inherit;
       }
