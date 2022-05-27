@@ -23,6 +23,15 @@ export default function Main() {
       </div>
       <div>
         <LabelLink 
+          style={{ width: '100px', height: '30px' }} 
+          icon={<SunIcon size={14} />}
+          disabled={true}
+        >
+          这是一段测试文本，this is a testing string.
+        </LabelLink>
+      </div>
+      <div>
+        <LabelLink 
           style={{ width: '100px', height: '30px', color: 'var(--orange)' }} 
           icon={<SunIcon size={14} />}
         >
