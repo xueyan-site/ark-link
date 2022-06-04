@@ -12,7 +12,7 @@ type LabelLink = React.ForwardRefExoticComponent<
 
 > 其他类型：[LinkRef](?doc=0002#linkref)
 
-## LinkProps
+## LabelLinkProps
 
 继承 [LinkProps](?doc=0002#linkprops) 全部属性
 
