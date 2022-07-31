@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Article, Segment } from 'xueyan-react-markdown'
 import { Playground } from 'xueyan-react-playground'
-import { Link, LabelLink } from 'xueyan-react-link'
+import { Link, LabelLink } from 'ark-link'
 import { SunIcon } from 'xueyan-react-icon'
 import TEST_ICON from './test.jpg'
 
@@ -11,7 +11,7 @@ const MARK1 = `
 
 const code1 = `
 import React from 'react'
-import { Link } from 'xueyan-react-link'
+import { Link } from 'ark-link'
 
 export default function Example() {
   return (
@@ -24,7 +24,7 @@ export default function Example() {
 
 const code2 = `
 import React from 'react'
-import { Link } from 'xueyan-react-link'
+import { Link } from 'ark-link'
 import TEST_ICON from './test.jpg'
 
 export default function Example() {
@@ -36,7 +36,7 @@ export default function Example() {
 
 const code3 = `
 import React from 'react'
-import { LabelLink } from 'xueyan-react-link'
+import { LabelLink } from 'ark-link'
 
 export default function Example() {
   return (

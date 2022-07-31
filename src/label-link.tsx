@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react'
 import cn from 'classnames'
 import styles from './label-link.scss'
-import { Ellipsis } from 'xueyan-react-ellipsis'
+import { Ellipsis } from 'ark-ellipsis'
 import { Link } from './link'
 import type { LinkProps, LinkRef } from './link'
-import type { EllipsisProps } from 'xueyan-react-ellipsis'
+import type { EllipsisProps } from 'ark-ellipsis'
 
 export interface LabelLinkProps extends LinkProps {
   /** 缩略组件参数 */

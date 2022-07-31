@@ -1,4 +1,4 @@
-import 'xueyan-react-style'
+import 'solor'
 
 export { Link } from './link'
 export { LabelLink } from './label-link'

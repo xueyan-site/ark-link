@@ -1,8 +1,8 @@
 {
-  "name": "xueyan-react-link-doc",
+  "name": "ark-link-doc",
   "version": "1.0.0",
   "author": "xueyan-site <xueyan@xueyan.site>",
-  "description": "xueyan-react-link document",
+  "description": "ark-link document",
   "private": true,
   "scripts": {
     "start": "xt start",
