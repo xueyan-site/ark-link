@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { Article, Segment } from 'xueyan-react-markdown'
-import { Playground } from 'xueyan-react-playground'
+import { Article, Segment } from 'ark-markdown'
+import { Playground } from 'ark-playground'
 import { Link, LabelLink } from 'ark-link'
-import { SunIcon } from 'xueyan-react-icon'
+import { SunIcon } from 'sicon'
 import TEST_ICON from './test.jpg'
 
 const MARK1 = `
